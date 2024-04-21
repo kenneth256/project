@@ -40,7 +40,10 @@ function RepoDetails() {
       <p>Open Issues: {repository.open_issues_count}</p>
       <p>Is Private: {repository.private ? 'Yes' : 'No'}</p>
       <p>Archived: {repository.archived ? 'Yes' : 'No'}</p>
-      <button href="index.html" style={{backgroundColor: 'lightgreen', padding:'5px 10px'}}>Back home</button>
+      <a href="./index.html">
+  <button>Back to Homepage</button>
+</a>
+
     </div>
   );
 }
