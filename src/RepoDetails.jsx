@@ -1,4 +1,3 @@
-// RepositoryDetailsPage.jsx
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
@@ -43,11 +42,16 @@ function RepoDetails() {
       <p>Open Issues: {repository.open_issues_count}</p>
       <p>Is Private: {repository.private ? "Yes" : "No"}</p>
       <p>Archived: {repository.archived ? "Yes" : "No"}</p>
-      <a href="https://charming-daifuku-b3a0de.netlify.app/">
-        <button>Back to Homepage</button>
+      <div>
+       
+        <a href="https://charming-daifuku-b3a0de.netlify.app/">
+        <button style={{backgroundColor:'rgba(0, 255, 0, 0.5)'}}>Homepage</button>
       </a>
+       
+      </div>
     </div>
   );
 }
 
 export default RepoDetails;
+
