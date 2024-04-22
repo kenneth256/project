@@ -44,7 +44,7 @@ function RepoDetails() {
       <p>Archived: {repository.archived ? "Yes" : "No"}</p>
       <div>
         <a href="https://charming-daifuku-b3a0de.netlify.app/">
-          <button style={{ backgroundColor: "rgba(0, 255, 0, 0.5)" }}>
+          <button style={{ backgroundColor: "rgba(0, 255, 0, 0.5)", padding: '5px' }}>
             Homepage
           </button>
         </a>
