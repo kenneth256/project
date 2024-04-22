@@ -43,15 +43,14 @@ function RepoDetails() {
       <p>Is Private: {repository.private ? "Yes" : "No"}</p>
       <p>Archived: {repository.archived ? "Yes" : "No"}</p>
       <div>
-       
         <a href="https://charming-daifuku-b3a0de.netlify.app/">
-        <button style={{backgroundColor:'rgba(0, 255, 0, 0.5)'}}>Homepage</button>
-      </a>
-       
+          <button style={{ backgroundColor: "rgba(0, 255, 0, 0.5)" }}>
+            Homepage
+          </button>
+        </a>
       </div>
     </div>
   );
 }
 
 export default RepoDetails;
-
