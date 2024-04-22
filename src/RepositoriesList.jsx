@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { each } from 'jquery';
 import Btns from './button';
+import $ from 'jquery';
+
 
 function RepositoriesList() {
   const [repositories, setRepositories] = useState([]);
