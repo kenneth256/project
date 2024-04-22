@@ -57,3 +57,14 @@ body {
 ul > li {
   list-style-type: none;
 }
+.buttons {
+  display: flex;
+  
+}
+.dir{
+  margin: 0 8px;
+}
+
+.dir1{
+  margin-left: 8px;
+}
