@@ -61,10 +61,27 @@ ul > li {
   display: flex;
   
 }
-.dir{
-  margin: 0 8px;
+.buttons {
+  display: flex;
+  justify-content: space-between;
 }
 
-.dir1{
-  margin-left: 8px;
+.dir, .dir1, .home, .prevrepolist,.nextrepolist {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dir:hover, .dir1:hover {
+  background-color: #0056b3;
+}
+
+.prevrepolist {
+  margin-right: 20px;
+}
+.dir {
+  margin-right: 20px;
 }

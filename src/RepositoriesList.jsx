@@ -40,6 +40,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import Btns from './button.jsx';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+
 
 function RepositoriesList() {
   const [repositories, setRepositories] = useState([]);
@@ -67,6 +70,7 @@ function RepositoriesList() {
   return (
     <div style={{ display: 'flex', marginLeft: '10px', flexDirection: 'column', color: '' }}>
       <h1>My GitHub Repositories</h1>
+      <Btns />
       <ul>
         {repositories.map(repo => (
           <li key={repo.id} style={{ marginLeft: '10px' }}>
@@ -75,8 +79,8 @@ function RepositoriesList() {
         ))}
       </ul>
       <div>
-        <button className="dir" onClick={goToPreviousPage} disabled={currentPage === 1}>Previous</button>
-        <button className='dir1' onClick={goToNextPage}>Next</button>
+        <button  className='prevrepolist' onClick={goToPreviousPage} disabled={currentPage === 1}><FaArrowLeft/></button>
+        <button className='nextrepolist' onClick={goToNextPage}><FaArrowRight/></button>
       </div>
     </div>
   );
