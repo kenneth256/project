@@ -1,5 +1,4 @@
 
-
 import { ChakraProvider, Box } from '@chakra-ui/react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import RepositoriesList from './RepositoriesList';
@@ -11,7 +10,7 @@ function App() {
   return (
     <ChakraProvider>
       <Box
-        w="50vh"
+        w="60vh"
         bg="white"
         boxShadow="lg"
         mx="auto"

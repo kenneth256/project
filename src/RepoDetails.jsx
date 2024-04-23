@@ -7,32 +7,6 @@ import { Icon } from "@chakra-ui/react";
 import { FaHome } from 'react-icons/fa';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
-// function RepoDetails() {
-//   // Other code...
-
-//   return (
-//     <div className="Details">
-//       {/* Other content */}
-//       <div className="buttons">
-//         <button className='dir' onClick={goToPreviousRepo}>
-//           <FaArrowLeft /> Previous Repo
-//         </button>
-//         <a href="https://charming-daifuku-b3a0de.netlify.app/">
-//           <button style={{ backgroundColor: "rgba(0, 255, 0, 0.5)", padding: '5px' }}>
-//             Homepage
-//           </button>
-//         </a>
-//         <button className="dir1" onClick={goToNextRepo}>
-//           Next Repo <FaArrowRight />
-//         </button>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default RepoDetails;
-
-
 function RepoDetails() {
   const { repoId } = useParams();
   const [repository, setRepository] = useState(null);
