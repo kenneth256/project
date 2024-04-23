@@ -85,3 +85,7 @@ ul > li {
 .dir {
   margin-right: 20px;
 }
+#root {
+  width: 100vh;
+  height: 100vh;
+}
