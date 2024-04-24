@@ -48,9 +48,8 @@ body {
 .Details {
   font-weight: 600;
   margin: 5px;
-  border-width: 2px;
-  border-style: solid;
-  border-image: linear-gradient(to bottom, red, rgb(0, 0, 0)) 1 100%;
+  
+ 
 }
 
 
@@ -84,6 +83,7 @@ ul > li {
 }
 .dir {
   margin-right: 20px;
+ 
 }
 #root {
   width: 100%;
