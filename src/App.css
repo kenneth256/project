@@ -67,7 +67,7 @@ ul > li {
 
 .dir, .dir1, .home, .prevrepolist,.nextrepolist {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: teal;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -75,7 +75,7 @@ ul > li {
 }
 
 .dir:hover, .dir1:hover {
-  background-color: #0056b3;
+  background-color: teal;
 }
 
 .prevrepolist {
