@@ -78,7 +78,7 @@ function RepoDetails() {
         <button className="dir" onClick={goToPreviousRepo}>
           <FaArrowLeft/>
         </button>
-        <a href="https://charming-daifuku-b3a0de.netlify.app/">
+        <a href="/">
           <button className="home">
             <Icon as={FaHome} />
           </button>
